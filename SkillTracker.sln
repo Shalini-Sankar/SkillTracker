@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SkillTrackerProfile", "SkillTrackerProfile", "{F4129A02-C250-40A4-A270-BFDBC8264056}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SkillTrackerIdentity", "SkillTrackerIdentity", "{8B216F7D-6B08-4A1D-A909-7CCFBD4F4282}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTrackerProfile.API", "SkillTrackerProfile.API\SkillTrackerProfile.API.csproj", "{E096FAAF-CDB5-40D2-9195-5E4AF7F7CA04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SkillTrackerGateway", "SkillTrackerGateway", "{B1D6C946-48F5-4864-849D-60D80636DA06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTrackerIdentity.API", "SkillTrackerIdentity.API\SkillTrackerIdentity.API.csproj", "{3884E7C3-55FE-4444-BC74-F3A238971FE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4609DE79-2307-417C-80A3-36122A5807BB}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.override.yml = docker-compose.override.yml
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTrackerGateway.API", "SkillTrackerGateway.API\SkillTrackerGateway.API.csproj", "{0AFD04DC-FD99-42C4-99A7-5E2DA1FFD306}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E096FAAF-CDB5-40D2-9195-5E4AF7F7CA04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E096FAAF-CDB5-40D2-9195-5E4AF7F7CA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E096FAAF-CDB5-40D2-9195-5E4AF7F7CA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E096FAAF-CDB5-40D2-9195-5E4AF7F7CA04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3884E7C3-55FE-4444-BC74-F3A238971FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3884E7C3-55FE-4444-BC74-F3A238971FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3884E7C3-55FE-4444-BC74-F3A238971FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3884E7C3-55FE-4444-BC74-F3A238971FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AFD04DC-FD99-42C4-99A7-5E2DA1FFD306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AFD04DC-FD99-42C4-99A7-5E2DA1FFD306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AFD04DC-FD99-42C4-99A7-5E2DA1FFD306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AFD04DC-FD99-42C4-99A7-5E2DA1FFD306}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E096FAAF-CDB5-40D2-9195-5E4AF7F7CA04} = {F4129A02-C250-40A4-A270-BFDBC8264056}
+		{3884E7C3-55FE-4444-BC74-F3A238971FE3} = {8B216F7D-6B08-4A1D-A909-7CCFBD4F4282}
+		{0AFD04DC-FD99-42C4-99A7-5E2DA1FFD306} = {B1D6C946-48F5-4864-849D-60D80636DA06}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37C2FECE-3378-4884-97B8-C3C2EB231DDF}
+	EndGlobalSection
+EndGlobal

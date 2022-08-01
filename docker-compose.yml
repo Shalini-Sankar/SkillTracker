@@ -1,0 +1,18 @@
+version: '3.4'
+
+services:
+ gatewayapi:
+    image: ${DOCKER_REGISTRY-}gatewayapi
+    build:
+      context: .
+      dockerfile: SkillTrackerGateway.API/Dockerfile
+ identityapi:
+    image: ${DOCKER_REGISTRY-}identityapi
+    build:
+      context: .
+      dockerfile: SkillTrackerIdentity.API/Dockerfile
+ profileapi:
+    image: ${DOCKER_REGISTRY-}profileapi
+    build:
+      context: .
+      dockerfile: SkillTrackerProfile.API/Dockerfile
